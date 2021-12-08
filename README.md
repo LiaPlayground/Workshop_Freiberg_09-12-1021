@@ -16,6 +16,7 @@ import:   https://raw.githubusercontent.com/liaTemplates/AVR8js/main/README.md
 
 # Workshop Freiberg
 
+
 ## Weitere Resourcen
 
 * __Project-Website:__ https://LiaScript.github.io
@@ -35,6 +36,9 @@ import:   https://raw.githubusercontent.com/liaTemplates/AVR8js/main/README.md
   - Liascript-Snippets: https://atom.io/packages/liascript-snippets
 
 * __Development-Server:__ https://www.npmjs.com/package/@liascript/devserver
+
+## Motivation
+
 
 ## Gefahren geschlossener Plattformen
 
