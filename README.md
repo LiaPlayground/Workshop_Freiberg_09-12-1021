@@ -5,6 +5,10 @@ email:    LiaScript@web.de
 
 version:  0.0.1
 
+logo:     pic/logo.jpg
+
+icon:     https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Logo_TU_Bergakademie_Freiberg.svg/242px-Logo_TU_Bergakademie_Freiberg.svg.png
+
 language: de
 
 narrator: Deutsch Female
