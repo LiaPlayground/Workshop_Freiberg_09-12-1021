@@ -13,6 +13,7 @@ import:   https://raw.githubusercontent.com/liaTemplates/AVR8js/main/README.md
 
 -->
 
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/LiaPlayground/Workshop_Freiberg_09-12-1021/master/00_Einfuehrung.md#1)
 
 # 2. LiaScript Tutorial an der TU Bergakademie Freiberg
 
