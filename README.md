@@ -14,42 +14,166 @@ import:   https://raw.githubusercontent.com/liaTemplates/AVR8js/main/README.md
 -->
 
 
-# Workshop Freiberg
+# 2. LiaScript Tutorial an der TU Bergakademie Freiberg
 
+-------------------------------------------------------------------------------
 
-## Weitere Resourcen
+![Screenshot of abandoned education plattforms](pic/CodiLia_screenshot.png)
 
-* __Project-Website:__ https://LiaScript.github.io
-* __Open-Source:__ https://github.com/liascript
-* __YouTube:__ https://www.youtube.com/channel/UCyiTe2GkW_u05HSdvUblGYg
-* __Additional resources:__
+-------------------------------------------------------------------------------
 
-  - Documentation: https://github.com/LiaScript/docs
-  - Free books: https://github.com/LiaBooks
-  - Templates: https://github.com/LiaTemplates
-  - Talks & ...: https://github.com/LiaPlayground
-  - Blog: https://aizac.herokuapp.com
+> André Dietrich, Sebastian Zug
 
-* __Editor:__ https://atom.io
-
-  - Liascript-Preview: https://atom.io/packages/liascript-preview
-  - Liascript-Snippets: https://atom.io/packages/liascript-snippets
-
-* __Development-Server:__ https://www.npmjs.com/package/@liascript/devserver
+-------------------------------------------------------------------------------
 
 ## Motivation
 
+     {{0-1}}
+*******************************************************************************
 
-## Gefahren geschlossener Plattformen
+Gefahren geschlossener Plattformen
+================================
 
-     {{1}}
+
 ![Screenshot of abandoned education plattforms](pic/AdresseNichtGefunden.png "Source: ['Adresse nicht gefunden' – Auf den digitalen Spuren der E-Teaching-Förderprojekte](https://www.pedocs.de/volltexte/2011/3215/pdf/Haug_Wedekind_Adresse_nicht_gefunden_D_A.pdf)")
 
-     {{2}}
-![Screenshot GeoCities Kitty page](pic/geocities-screenshot.png "More information at: [Wikipedia](https://en.wikipedia.org/wiki/Yahoo!_GeoCities)")
+> __Warum ist das so?__
 
-     {{3}}
-![Screenshot Business Insider](pic/business-insider-screenshot.png "Source: [A top futurist predicts the largest internet company of 2030 will be an online school](https://www.businessinsider.com.au/futurist-predicts-online-school-largest-online-company-2016-12)")
+Geschlossenheit der Ansätze
+
+1. Feste Systemgrenzen durch eine Serverinfrastruktur
+2. Feste Kreativitätsgrenzen durch den Umfang der möglichen Inhalte
+3. Feste Grenzen der Editoren
+
+*******************************************************************************
+
+     {{1-3}}
+*******************************************************************************
+
+LiaScript Lösungsansatz
+================================
+
+> __LiaScript__ definiert eine __Beschreibungssprache,__ auf der Basis von Markdown
+>
+> 1. die unabhängig von einer Serverinfrastruktur ist,
+> 2. im Umfang durch eigene Plugins erweitert werden kann und
+> 3. explizit auf Multi-Autoren-Ansätze abzielt.
+
+     {{1-2}}
+<!--
+style="width: 100%; max-width: 760px; display: block; margin-left: auto; margin-right: auto;"
+-->
+`````````
+
+      Texteditor                                        ╔══════╡   nativ   ╞══════╗
+          |                                             ║ Digitale Systeme        ║
+          v                                         +-> ║ (WiSe 2020)             ║
++---------------------+              .-.  .-.       |   ║                         ║
+| # Digitale Systeme  |\          .-(   )(   )-.    |   ╚═════════════════════════╝
+| (WiSe 2020)         +-+      .-(  beliebiger  )   |
+|                       | --> (       Cloud   -.  --+                           
+| Fallbeispiele         |      '-(  Speicher   )    |   ╔═╡  iFrame im LMS     ╞══╗
+| + ...                 |         (   )-(   )-.     |   ║ Digitale Systeme        ║
++-----------------------+          .-.   .-.        +-> ║ (WiSe 2020)             ║
+                                                        ║                         ║
+                                                        ╚═════════════════════════╝
+
+`````````
+
+     {{2-3}}
+<!--
+style="width: 100%; max-width: 760px; display: block; margin-left: auto; margin-right: auto;"
+-->
+`````````
+
+      Texteditor                                        ╔══════╡   nativ   ╞══════╗
+          |                                             ║ Digitale Systeme        ║
+          v                                         +-> ║ (WiSe 2020)             ║
++---------------------+              .-.  .-.       |   ║                         ║
+| # Digitale Systeme  |\          .-(   )(   )-.    |   ╚═════════════════════════╝
+| (WiSe 2020)         +-+      .-(  beliebiger  )   |
+|                       | --> (       Cloud   -.  --+                           
+| Fallbeispiele         |      '-(  Speicher   )    |   ╔═╡  iFrame im LMS     ╞══╗
+| + ...                 |         (   )-(   )-.     |   ║ Digitale Systeme        ║
++-----------------------+          .-.   .-.        +-> ║ (WiSe 2020)             ║
+          |                                             ║                         ║
+          |                                             ╚═════════════════════════╝
+          |                                        
+          |                        .-.                         
+          |                     .-(   )-.               ╔══════╡    LMS    ╞══════╗
+          |  Exporter        .-(   LMS   )-.            ║ Digitale Systeme        ║
+          +-----------------(  OPAL, Moodle )-------->  ║ (WiSe 2020)             ║
+                             '-(  Ilias    )            ║                         ║
+                                (   )(   )              ╚═════════════════════════╝
+                                 .-.  .-.
+`````````
+
+*******************************************************************************
+
+## LiaScript Status Quo
+
+         {{0-1}}
+*******************************************************************************
+
+Entwicklungspfad
+================================
+
+<!--
+style="width: 100%; max-width: 760px; display: block; margin-left: auto; margin-right: auto;"
+-->
+`````````
+               Integration in                           Implementierung eines
+               Remote-Labore als                        Multiautoren-Tools
+               variables Beschreibungs-                 im Rahmen des BMBF
+               konzept                                  Projektes MOER
+
+ 2016          2017          2018          2019          2020          2021        
+=|=============|=============|=============|=============|=============|=============|==>
+
+ Entwicklung der             Einsatz als                               Integration des
+ Basiskonzepte               Werkzeug für die                          Klassenraumkonzeptes
+ im Rahmen des               Vorlesungsmaterialien                     in LiaScript
+ BMBF Projektes                                                        DiP-iT Projekt
+ Industrial-eLab
+
+`````````
+
+
+![Screenshot](pic/LiaScriptAtomScreenShot_1.0.png "Screenshot LiaScript V1.0")
+
+
+*******************************************************************************
+
+        {{1-2}}
+*******************************************************************************
+
+Und wer nutzt das?
+================================
+
++ Aktuell bestehen unter GitHub öffentliche 104 Repositories, die `LiaScript` im Namen tragen.
+
+![Screenshot of abandoned education plattforms](pic/Screenshot_LiaScriptBeispiel.png)
+![Screenshot of abandoned education plattforms](pic/Screenshot_LiaScriptBeispiel1.png)
+![Screenshot of abandoned education plattforms](pic/Screenshot_LiaScriptBeispiel2.png)
+
++ Auf der CodiLia-Instanz in Freiberg haben XXX Nutzer XXX Dokumente angelegt.
+
+
+*******************************************************************************
+
+       {{2-3}}
+*******************************************************************************
+
+Welche Möglichkeiten ergeben sich daraus?
+================================
+
++ Blended Learning Ansätze (Dr. Jacob, Sprachenzentrum TU Freiberg)
+
++ Einbettung der Studierenden in die kontinuierliche Entwicklung der Materialien
+
+![Screenshot of abandoned education plattforms](pic/Contributors.png)
+
+*******************************************************************************
 
 
 ## Markdown Basics
@@ -376,3 +500,24 @@ für sehr stark.
 ## (K)eine Plattform
 
 <div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/xThuW7icYBlQZxjnyg" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/truthorange-dog-surprised-wtf-xThuW7icYBlQZxjnyg">via GIPHY</a></p>
+
+
+## Weitere Resourcen
+
+* __Project-Website:__ https://LiaScript.github.io
+* __Open-Source:__ https://github.com/liascript
+* __YouTube:__ https://www.youtube.com/channel/UCyiTe2GkW_u05HSdvUblGYg
+* __Additional resources:__
+
+  - Documentation: https://github.com/LiaScript/docs
+  - Free books: https://github.com/LiaBooks
+  - Templates: https://github.com/LiaTemplates
+  - Talks & ...: https://github.com/LiaPlayground
+  - Blog: https://aizac.herokuapp.com
+
+* __Editor:__ https://atom.io
+
+  - Liascript-Preview: https://atom.io/packages/liascript-preview
+  - Liascript-Snippets: https://atom.io/packages/liascript-snippets
+
+* __Development-Server:__ https://www.npmjs.com/package/@liascript/devserver
