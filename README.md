@@ -144,19 +144,18 @@ Entwicklungspfad
                variables Beschreibungs-                 im Rahmen des BMBF
                konzept                                  Projektes MOER
 
- 2016          2017          2018          2019          2020          2021
-=|=============|=============|=============|=============|=============|=============|==>
+2016          2017          2018          2019          2020          2021
+═╪═════════════╪═════════════╪═════════════╪═════════════╪═════════════╪══════════════╪══⮀
 
  Entwicklung der             Einsatz als                               Integration des
  Basiskonzepte               Werkzeug für die                          Klassenraumkonzeptes
  im Rahmen des               Vorlesungsmaterialien                     in LiaScript
  BMBF Projektes                                                        DiP-iT Projekt
  Industrial-eLab
-
 `````````
 
 
-![Screenshot](pic/LiaScriptAtomScreenShot_1.0.png "Screenshot LiaScript V1.0")
+![Screenshot](pic/LiaScriptAtomScreenShot_1.0.png "Screenshot LiaScript V0.18")
 
 
 *******************************************************************************
