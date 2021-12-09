@@ -26,7 +26,28 @@ import:   https://raw.githubusercontent.com/liaTemplates/AVR8js/main/README.md
 
 -------------------------------------------------------------------------------
 
-## Motivation
+### Quellen
+
+* __Project-Website:__ https://LiaScript.github.io
+* __Open-Source:__ https://github.com/liascript
+* __YouTube:__ https://www.youtube.com/channel/UCyiTe2GkW_u05HSdvUblGYg
+* __Additional resources:__
+
+  - Documentation: https://github.com/LiaScript/docs
+  - Free books: https://github.com/LiaBooks
+  - Templates: https://github.com/LiaTemplates
+  - Talks & ...: https://github.com/LiaPlayground
+  - Blog: https://aizac.herokuapp.com
+
+* __Editor:__ https://atom.io
+
+  - Liascript-Preview: https://atom.io/packages/liascript-preview
+  - Liascript-Snippets: https://atom.io/packages/liascript-snippets
+
+* __Development-Server:__ https://www.npmjs.com/package/@liascript/devserver
+
+
+### Motivation
 
      {{0-1}}
 *******************************************************************************
@@ -60,46 +81,37 @@ LiaScript Lösungsansatz
 > 3. explizit auf Multi-Autoren-Ansätze abzielt.
 
      {{1-2}}
-<!--
-style="width: 100%; max-width: 760px; display: block; margin-left: auto; margin-right: auto;"
--->
 `````````
-
       Texteditor                                        ╔══════╡   nativ   ╞══════╗
           |                                             ║ Digitale Systeme        ║
           v                                         +-> ║ (WiSe 2020)             ║
 +---------------------+              .-.  .-.       |   ║                         ║
 | # Digitale Systeme  |\          .-(   )(   )-.    |   ╚═════════════════════════╝
 | (WiSe 2020)         +-+      .-(  beliebiger  )   |
-|                       | --> (       Cloud   -.  --+                           
+|                       | --> (       Cloud   -.  --+
 | Fallbeispiele         |      '-(  Speicher   )    |   ╔═╡  iFrame im LMS     ╞══╗
 | + ...                 |         (   )-(   )-.     |   ║ Digitale Systeme        ║
 +-----------------------+          .-.   .-.        +-> ║ (WiSe 2020)             ║
                                                         ║                         ║
                                                         ╚═════════════════════════╝
-
 `````````
 
      {{2-3}}
-<!--
-style="width: 100%; max-width: 760px; display: block; margin-left: auto; margin-right: auto;"
--->
 `````````
-
       Texteditor                                        ╔══════╡   nativ   ╞══════╗
           |                                             ║ Digitale Systeme        ║
           v                                         +-> ║ (WiSe 2020)             ║
 +---------------------+              .-.  .-.       |   ║                         ║
 | # Digitale Systeme  |\          .-(   )(   )-.    |   ╚═════════════════════════╝
 | (WiSe 2020)         +-+      .-(  beliebiger  )   |
-|                       | --> (       Cloud   -.  --+                           
+|                       | --> (       Cloud   -.  --+
 | Fallbeispiele         |      '-(  Speicher   )    |   ╔═╡  iFrame im LMS     ╞══╗
 | + ...                 |         (   )-(   )-.     |   ║ Digitale Systeme        ║
 +-----------------------+          .-.   .-.        +-> ║ (WiSe 2020)             ║
           |                                             ║                         ║
           |                                             ╚═════════════════════════╝
-          |                                        
-          |                        .-.                         
+          |
+          |                        .-.
           |                     .-(   )-.               ╔══════╡    LMS    ╞══════╗
           |  Exporter        .-(   LMS   )-.            ║ Digitale Systeme        ║
           +-----------------(  OPAL, Moodle )-------->  ║ (WiSe 2020)             ║
@@ -110,7 +122,7 @@ style="width: 100%; max-width: 760px; display: block; margin-left: auto; margin-
 
 *******************************************************************************
 
-## LiaScript Status Quo
+### LiaScript Status Quo
 
          {{0-1}}
 *******************************************************************************
@@ -118,16 +130,13 @@ style="width: 100%; max-width: 760px; display: block; margin-left: auto; margin-
 Entwicklungspfad
 ================================
 
-<!--
-style="width: 100%; max-width: 760px; display: block; margin-left: auto; margin-right: auto;"
--->
 `````````
                Integration in                           Implementierung eines
                Remote-Labore als                        Multiautoren-Tools
                variables Beschreibungs-                 im Rahmen des BMBF
                konzept                                  Projektes MOER
 
- 2016          2017          2018          2019          2020          2021        
+ 2016          2017          2018          2019          2020          2021
 =|=============|=============|=============|=============|=============|=============|==>
 
  Entwicklung der             Einsatz als                               Integration des
@@ -497,27 +506,42 @@ für sehr stark.
     [               ] Die Web 3.0 Features klingen spannend
 
 
-## (K)eine Plattform
+## (K)eine Web 3.0 Plattform
 
 <div style="width:100%;height:0;padding-bottom:100%;position:relative;"><iframe src="https://giphy.com/embed/xThuW7icYBlQZxjnyg" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/truthorange-dog-surprised-wtf-xThuW7icYBlQZxjnyg">via GIPHY</a></p>
 
+### Wo werden Inhalte gespeichert
 
-## Weitere Resourcen
+     {{1}}
+* ### Plattforms with Version-Control:
 
-* __Project-Website:__ https://LiaScript.github.io
-* __Open-Source:__ https://github.com/liascript
-* __YouTube:__ https://www.youtube.com/channel/UCyiTe2GkW_u05HSdvUblGYg
-* __Additional resources:__
+  1. [GitHub](https://github.com)
+  2. [GitLab](https://gitlab.com)
+  3. ...
 
-  - Documentation: https://github.com/LiaScript/docs
-  - Free books: https://github.com/LiaBooks
-  - Templates: https://github.com/LiaTemplates
-  - Talks & ...: https://github.com/LiaPlayground
-  - Blog: https://aizac.herokuapp.com
+     {{2}}
+* ### Peer To Peer Systems with Browser-Support
 
-* __Editor:__ https://atom.io
+  1. [Brave-Browser](https://brave.com) with [IPFS](https://ipfs.io)
+  2. [Beaker-Browser](https://beakerbrowser.com) with [Hyper](https://hypercore-protocol.org)
+  3. ...
 
-  - Liascript-Preview: https://atom.io/packages/liascript-preview
-  - Liascript-Snippets: https://atom.io/packages/liascript-snippets
 
-* __Development-Server:__ https://www.npmjs.com/package/@liascript/devserver
+     {{3}}
+* ### Online stores
+
+  1. [DropBox](https://www.dropbox.com)
+  2. [NextCloud](https://nextcloud.com/)
+  3. ... any ordinary webstore
+
+     {{4}}
+* ### Kollaborative online Editoren
+
+  1. [CodiLia](https://github.com/liascript/codilia)
+  2. ...
+
+### Klassenräume
+
+https://LiaScript.github.io/nightly/?https://raw.githubusercontent.com/LiaPlayground/Workshop_Freiberg_09-12-1021/main/README.md
+
+### Index
