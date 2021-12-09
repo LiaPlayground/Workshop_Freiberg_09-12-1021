@@ -161,9 +161,9 @@ Und wer nutzt das?
 
 + Aktuell bestehen unter GitHub öffentliche 104 Repositories, die `LiaScript` im Namen tragen.
 
-![Screenshot of abandoned education plattforms](pic/Screenshot_LiaScriptBeispiel.png)
-![Screenshot of abandoned education plattforms](pic/Screenshot_LiaScriptBeispiel1.png)
-![Screenshot of abandoned education plattforms](pic/Screenshot_LiaScriptBeispiel2.png)
+  ![Screenshot of abandoned education plattforms](pic/Screenshot_LiaScriptBeispiel.png)
+  ![Screenshot of abandoned education plattforms](pic/Screenshot_Twillo.png)
+  ![Screenshot of abandoned education plattforms](pic/Screenshot_LiaScriptBeispiel2.png)
 
 + Auf der CodiLia-Instanz in Freiberg haben XXX Nutzer XXX Dokumente angelegt.
 
@@ -180,7 +180,7 @@ Welche Möglichkeiten ergeben sich daraus?
 
 + Einbettung der Studierenden in die kontinuierliche Entwicklung der Materialien
 
-![Screenshot of abandoned education plattforms](pic/Contributors.png)
+  ![Screenshot of abandoned education plattforms](pic/Contributors.png)
 
 *******************************************************************************
 
