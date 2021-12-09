@@ -11,13 +11,16 @@ icon:     https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Logo_TU_Berg
 
 language: de
 
+comment:  Einführung in LiaScript und Markdown sowie ein Ausblick auf zukünftige
+          Entwicklung wie zum Beispiel dezentrale Klassenräume.
+
 narrator: Deutsch Female
 
 import:   https://raw.githubusercontent.com/liaTemplates/AVR8js/main/README.md
 
 -->
 
-[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/LiaPlayground/Workshop_Freiberg_09-12-1021/master/00_Einfuehrung.md#1)
+[![LiaScript](https://raw.githubusercontent.com/LiaScript/LiaScript/master/badges/course.svg)](https://liascript.github.io/course/?https://raw.githubusercontent.com/LiaPlayground/Workshop_Freiberg_09-12-1021/master/README.md)
 
 # 2. LiaScript Tutorial an der TU Bergakademie Freiberg
 
@@ -550,3 +553,5 @@ für sehr stark.
 https://LiaScript.github.io/nightly/?https://raw.githubusercontent.com/LiaPlayground/Workshop_Freiberg_09-12-1021/main/README.md
 
 ### Index
+
+[preview-lia](https://liascript.github.io/course/?https://raw.githubusercontent.com/LiaPlayground/Workshop_Freiberg_09-12-1021/master/README.md)
