@@ -165,7 +165,7 @@ Und wer nutzt das?
   ![Screenshot of abandoned education plattforms](pic/Screenshot_Twillo.png)
   ![Screenshot of abandoned education plattforms](pic/Screenshot_LiaScriptBeispiel2.png)
 
-+ Auf der CodiLia-Instanz in Freiberg haben XXX Nutzer XXX Dokumente angelegt.
++ Auf der CodiLia-Instanz in Freiberg haben 177 Nutzer 308 Dokumente angelegt.
 
 
 *******************************************************************************
